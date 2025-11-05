@@ -12,8 +12,50 @@
 
         <!-- Modello dal /public -->
         <Suspense>
-          <GLTFModel :path="oldPC" :cast-shadow="true" :receive-shadow="true" />
-
+          <TresGroup :position="[0, 0, 0]">
+            <GLTFModel
+              :path="oldPC"
+              :cast-shadow="true"
+              :receive-shadow="true"
+              :position="[0, 0, 0]"
+              :scale="[1, 1, 1]" />
+            <GLTFModel
+              :path="books"
+              :cast-shadow="true"
+              :receive-shadow="true"
+              :position="[200, 0, 0]"
+              :scale="[80, 80, 80]" />
+            <GLTFModel
+              :path="controller"
+              :cast-shadow="true"
+              :receive-shadow="true"
+              :position="[400, 0, 0]"
+              :scale="[10, 10, 10]" />
+            <GLTFModel
+              :path="Headphone"
+              :cast-shadow="true"
+              :receive-shadow="true"
+              :position="[-200, 0, 0]"
+              :scale="[120, 120, 120]" />
+            <GLTFModel
+              :path="luggage"
+              :cast-shadow="true"
+              :receive-shadow="true"
+              :position="[-400, 0, 0]"
+              :scale="[100, 100, 100]" />
+            <GLTFModel
+              :path="Handy"
+              :cast-shadow="true"
+              :receive-shadow="true"
+              :position="[0, 0, -200]"
+              :scale="[10, 10, 10]" />
+            <GLTFModel
+              :path="smartphone"
+              :cast-shadow="true"
+              :receive-shadow="true"
+              :position="[0, 0, 200]"
+              :scale="[10, 10, 10]" />
+          </TresGroup>
           <template #fallback>
             <div class="loading-overlay">
               Caricamento modello… {{ Math.round(progress * 100) }}%
