@@ -12,10 +12,8 @@
 
         <!-- Modello dal /public -->
         <Suspense>
-          <GLTFModel
-            :path="modelPath"
-            :cast-shadow="true"
-            :receive-shadow="true" />
+          <GLTFModel :path="oldPC" :cast-shadow="true" :receive-shadow="true" />
+
           <template #fallback>
             <div class="loading-overlay">
               Caricamento modello… {{ Math.round(progress * 100) }}%
@@ -45,7 +43,13 @@
   const { app } = useRuntimeConfig();
   const baseUrl = app?.baseURL ?? "/";
 
-  const modelPath = computed(() => `${baseUrl}models/oldPC/scene.gltf`);
+  const books = computed(() => `${baseUrl}models/books/scene.gltf`);
+  const controller = computed(() => `${baseUrl}models/controller/scene.gltf`);
+  const Handy = computed(() => `${baseUrl}models/Handy/scene.gltf`);
+  const Headphone = computed(() => `${baseUrl}models/Headphone/scene.gltf`);
+  const luggage = computed(() => `${baseUrl}models/luggage/scene.gltf`);
+  const oldPC = computed(() => `${baseUrl}models/oldPC/scene.gltf`);
+  const smartphone = computed(() => `${baseUrl}models/smartphone/scene.gltf`);
 </script>
 
 <style>

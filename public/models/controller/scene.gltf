@@ -1,0 +1,395 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 13425,
+      "max": [
+        4.881582736968994,
+        0.2570163607597351,
+        3.2113215923309326
+      ],
+      "min": [
+        -4.881582736968994,
+        -3.187666893005371,
+        -2.991704225540161
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 161100,
+      "componentType": 5126,
+      "count": 13425,
+      "max": [
+        0.9993420839309692,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -0.9993420839309692,
+        -1.0,
+        -0.9999415874481201
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 13425,
+      "max": [
+        0.9997261166572571,
+        0.9999994039535522,
+        0.9999956488609314,
+        1.0
+      ],
+      "min": [
+        -0.9996351003646851,
+        -1.0,
+        -0.9999992847442627,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 13425,
+      "max": [
+        1.0000001192092896,
+        0.9914371371269226
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 48522,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 322200,
+      "componentType": 5126,
+      "count": 3445,
+      "max": [
+        2.1047487258911133,
+        0.8500549793243408,
+        1.628899335861206
+      ],
+      "min": [
+        -2.104748487472534,
+        -0.13870570063591003,
+        -0.7205584645271301
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 363540,
+      "componentType": 5126,
+      "count": 3445,
+      "max": [
+        0.9970299601554871,
+        1.0,
+        0.9970362782478333
+      ],
+      "min": [
+        -0.9970299601554871,
+        -0.9999622106552124,
+        -0.9969780445098877
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 214800,
+      "componentType": 5126,
+      "count": 3445,
+      "max": [
+        1.0,
+        0.9900256395339966,
+        0.9977368116378784,
+        1.0
+      ],
+      "min": [
+        -0.982304573059082,
+        -0.9971107244491577,
+        -0.9999032616615295,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 107400,
+      "componentType": 5126,
+      "count": 3445,
+      "max": [
+        0.9910196661949158,
+        0.9993406534194946
+      ],
+      "min": [
+        0.0,
+        0.11674833297729492
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 134960,
+      "componentType": 5126,
+      "count": 3445,
+      "max": [
+        0.9910196661949158,
+        0.9993406534194946
+      ],
+      "min": [
+        0.0,
+        0.11674833297729492
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 194088,
+      "componentType": 5125,
+      "count": 13080,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "rhcreations (https://sketchfab.com/rhcreations)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/ps2-controller-9b0db71448a14907a6235c79bdce786a",
+      "title": "PS2 Controller"
+    },
+    "generator": "Sketchfab-12.68.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 246408,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 162520,
+      "byteOffset": 246408,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 404880,
+      "byteOffset": 408928,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 269920,
+      "byteOffset": 813808,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1083728,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/PS2_Controller_Plastic_Material_baseColor.png"
+    },
+    {
+      "uri": "textures/PS2_Controller_Plastic_Material_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/PS2_Controller_Plastic_Material_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "PS2_Controller_Plastic_Material",
+      "normalTexture": {
+        "index": 2,
+        "scale": 0.06859195349883565
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        },
+        "roughnessFactor": 0.8894153305486141
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "PS2_Controller_Rubber_Material",
+      "normalTexture": {
+        "index": 2,
+        "scale": 0.2
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.396921304318747
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Object_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Object_1",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8,
+            "TEXCOORD_1": 9
+          },
+          "indices": 10,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "root"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "GLTF_SceneRootNode"
+    },
+    {
+      "children": [
+        4,
+        5
+      ],
+      "name": "PS2 Controller_0"
+    },
+    {
+      "mesh": 0,
+      "name": "Object_4"
+    },
+    {
+      "mesh": 1,
+      "name": "Object_5"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}
