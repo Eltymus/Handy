@@ -7,4 +7,9 @@ export default defineNuxtConfig({
     devtools: true,
     glsl: true,
   },
+  vite: {
+    resolve: {
+      dedupe: ["three"],
+    },
+  },
 });
